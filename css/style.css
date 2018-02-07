@@ -1,3 +1,9 @@
-.container{
-	background-color: red;
+body{
+	background-color: grey;
+
+}
+.container {
+	width:980px;
+	margin: 0 auto;
+	position: relative;
 }

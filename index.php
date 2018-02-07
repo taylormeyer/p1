@@ -1,11 +1,14 @@
+<!DOCTYPE html>
 <html>
 <head>
 	<title>Taylor Meyer</title>
 	<meta charset="utf-8">
 
-	<meta name = viewport" content="width=device-width, initial-scale=1>
+	<meta name = viewport" content="width=device-width, initial-scale=1">
 
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="/css/style.css" rel="stylesheet" />
+	
+	
 </head>
 <body>
 	<div class="container">
@@ -17,7 +20,14 @@
 		</p>
 
 		<h2>Quote of the Day</h2>
-		<blockquote>Anything is possible if you set your mind to it - Mom </blockquote>
+		<?php
+		 $quotes = array(
+		 			'Anything is possible if you set your mind to it - Mom ',
+		 			'Anything worth doing is worth doing well - Dad',
+		 			'Wyoming is the best state - Grandpa (from Wyoming)'
+		 			);
+		 ?>
+		<blockquote><?php echo $quotes[array_rand($quotes)]; ?></blockquote>
 	</div>
 
 	<script type="text/javascript"></script>

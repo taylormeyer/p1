@@ -10,7 +10,7 @@
 <body>
 	<div class="container">
 		<h1>Taylor Meyer</h1>
-		<img src='/images/Taylor Meyer.png'>
+		<img src='/images/taylor.png'>
 		<h2>Introduction</h2>
 		<p>
 		Thanks for visiting my page! I was born in Detroit, MI but raised in Raleigh, NC. I went to undergrad at UNC-Chapel Hill and played on the varsity tennis team (if anyone is looking to place some tennis, let me know!). I just finished my MBA at Kenan-Flagler Business School at UNC, and am now anxious to learn more about programming. I am currently working at Hyperspace Ventures where I focus on managing a small development team.
